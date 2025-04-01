@@ -124,7 +124,7 @@ end
 
 -- Toggle aim assist when pressing 'C'
 userInput.InputBegan:Connect(function(input, gameProcessed)
-    if not gameProcessed and input.KeyCode == Enum.KeyCode.C then
+    if not gameProcessed and input.KeyCode == Enum.KeyCode.X then
         toggleAimAssist()
     end
 end)
